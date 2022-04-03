@@ -1,3 +1,3 @@
 
-FROM manishcs34/webapp
+FROM manishcs34/dockerfile
 ADD . /var/www/html
