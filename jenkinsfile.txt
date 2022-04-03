@@ -1,0 +1,16 @@
+pipeline{
+stages{
+stage("Build"){
+steps{
+echo "we are going to build our application in this stage"
+}
+stage("test"){
+steps{
+echo "test are going to be now executed"
+}
+stage("Deploy"){
+steps {
+echo "software is going to be deployed"
+}
+}
+}
